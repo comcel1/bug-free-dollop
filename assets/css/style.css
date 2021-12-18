@@ -120,17 +120,19 @@ p {
     max-width: 150px;
 }
 
-.benefit-lead {
+/*combined multiple article elements into single selector*/
+.benefits article {
     margin-bottom: 32px;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+  }
 
-.benefit-cost {
-    margin-bottom: 32px;
-}
 
 .search-engine-optimization {
     margin-bottom: 20px;
