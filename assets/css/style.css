@@ -113,6 +113,13 @@ p {
     text-align: center;
 }
 
+/*combined multiple images into single img selector*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 .benefit-lead {
     margin-bottom: 32px;
 }
@@ -123,24 +130,6 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
